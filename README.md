@@ -1,2 +1,2 @@
-# Slides ngrx
+# Slides ngrx - Euskeraz
 
