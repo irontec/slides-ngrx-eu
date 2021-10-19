@@ -1,0 +1,47 @@
+{
+  "title": "NGRXera sarrera",
+  "og_url": "https://irontec.github.io/slides-ngrx/",
+  "og_image": "https://irontec.github.io/slides-ngrx/media/images/logo.png",
+  "options": {
+    "controls": true,
+    "progress": true,
+    "history": true,
+    "center": true,
+    "slideNumber": false,
+    "touch": true,
+    "hideAddressBar": true,
+    "mouseWheel": true
+  },
+  "plugins": {
+    "search": true,
+    "zoom":   true,
+    "menu":   true,
+    "notes":  true,
+    "highlightjs": true,
+    "ga": "UA-130231733-6"
+  },
+  "serviceWorker": true,
+  "slides": [
+    {"path": "index.md", "attrs": {"class":"intro"}},
+    [
+      "01-flux/*",
+      {"path": "01-flux/10.md", "attrs": {"class":"white-bg"}}
+    ],
+    [
+      "02-ngrx/*"
+    ],
+    [
+      "03-actions/*"
+    ],
+    [
+      "04-reducers/*"
+    ],
+    [
+      "05-effects/*"
+    ],
+    [
+      "06-components/*"
+    ],
+    {"path": "end.md", "attrs": {"class":"last bg-red"}}
+  ]
+}
